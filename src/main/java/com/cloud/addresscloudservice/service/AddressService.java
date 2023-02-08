@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class AddressService {
 
-	Logger logger = LoggerFactory.getLogger(AddressService.class);
+		Logger logger = LoggerFactory.getLogger(AddressService.class);
 	
 	@Autowired
 	AddressRepository addressRepository;
